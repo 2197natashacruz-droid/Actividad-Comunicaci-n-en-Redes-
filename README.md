@@ -1,4 +1,4 @@
-Actividad: Comunicación en Redes 
+# Actividad: Comunicación en Redes 
 
 ### 1. 🌐 Conceptos base
 
@@ -162,3 +162,69 @@ Es un estilo de arquitectura para crear APIs donde se usan métodos HTTP (GET, P
 
 - **¿Qué es un endpoint?**  
 Es una URL específica dentro de una API donde puedes hacer una petición para obtener o enviar datos.
+
+# 📚 Glosario básico: Comunicación en Redes
+
+## 🌐 Conceptos clave
+
+| Concepto | Definición simple |
+|----------|------------------|
+| TCP | Protocolo que envía datos de forma segura y ordenada |
+| UDP | Protocolo rápido que envía datos sin asegurar entrega |
+| Puerto | Número que identifica una aplicación en un dispositivo |
+| HTTP | Protocolo que permite cargar páginas web |
+
+---
+
+## ⚖️ TCP vs UDP
+
+- **TCP**: Más seguro y confiable  
+- **UDP**: Más rápido pero menos seguro  
+
+---
+
+## 🔌 Puertos importantes
+
+- **80** → HTTP  
+- **443** → HTTPS  
+- **3000** → Desarrollo local  
+- **5432** → Base de datos (PostgreSQL)  
+
+---
+
+## 🌍 HTTP
+
+- **Request**: Petición del cliente  
+- **Response**: Respuesta del servidor  
+
+### Métodos básicos
+
+- **GET** → Obtener datos  
+- **POST** → Crear datos  
+- **PUT** → Actualizar  
+- **DELETE** → Eliminar  
+
+---
+
+## 🔗 Conceptos clave en desarrollo
+
+- **localhost**: Tu propio computador como servidor  
+- **fetch()**: Forma de pedir datos a un servidor  
+
+---
+
+## 🛠️ Errores comunes
+
+- **Port in use** → Puerto ocupado  
+- **Connection refused** → Servidor apagado  
+- **Timeout** → Servidor no responde  
+
+---
+
+## 🎁 BONUS
+
+| Concepto | Definición |
+|----------|-----------|
+| HTTPS | HTTP seguro (con cifrado) |
+| REST | Forma de crear APIs usando HTTP |
+| Endpoint | URL donde haces una petición |
